@@ -95,11 +95,16 @@ async function load() {
 
   const manager = new THREE.LoadingManager();
   const loader = new GLTFLoader(manager).setMeshoptDecoder(MeshoptDecoder);
-  const gltf = await loader.loadAsync(`${BASE}models/apartamento.glb`, (e) => {
-    const p = e.total ? e.loaded / e.total : 0;
+  const progress = (p: number) => {
     barFill.style.width = `${Math.round(p * 100)}%`;
     pct.textContent = `${Math.round(p * 100)}%`;
-  });
+  };
+  // hospedagens que não servem .glb podem entregar o modelo como módulo JS (base64)
+  const moduleUrl = (window as { TOUR_MODEL_MODULE?: string }).TOUR_MODEL_MODULE;
+  const gltf = moduleUrl
+    ? await loader.parseAsync(await loadModelModule(moduleUrl), BASE)
+    : await loader.loadAsync(`${BASE}models/apartamento.glb`, (e) => progress(e.total ? e.loaded / e.total : 0));
+  progress(1);
 
   const lmScale = (data.lightmap?.scale ?? 1) * Math.PI * Number(params.get('lm') ?? 1);
   gltf.scene.traverse((o) => {
@@ -164,6 +169,14 @@ async function load() {
   setMode(params.get('mode') === 'walk' ? 'walk' : 'dollhouse', true);
   ready = true;
   loadingEl.classList.add('done');
+}
+
+async function loadModelModule(url: string): Promise<ArrayBuffer> {
+  const mod = await import(/* @vite-ignore */ new URL(url, document.baseURI).href);
+  const bin = atob(mod.default as string);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return bytes.buffer;
 }
 
 /** Troca a caixa do espelho por um espelho plano de verdade (reflexo em tempo real). */
