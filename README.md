@@ -4,9 +4,22 @@ Site com um tour 3D interativo de um apartamento do Airbnb. O hóspede abre um l
 (ou lê um QR code) e explora o apê pelo navegador, no celular ou no computador,
 sem instalar nada.
 
-O planejamento completo está em [`docs/PLANEJAMENTO.md`](docs/PLANEJAMENTO.md).
-A lista do que precisamos receber do cliente está em
-[`docs/CHECKLIST-CLIENTE.md`](docs/CHECKLIST-CLIENTE.md).
+- Planejamento: [`docs/PLANEJAMENTO.md`](docs/PLANEJAMENTO.md)
+- Análise das fotos e planta estimada: [`docs/analise-fotos.md`](docs/analise-fotos.md)
+- Como gerar o modelo e o site: [`docs/COMO-GERAR.md`](docs/COMO-GERAR.md)
+- Vídeo no Unreal Engine 5: [`docs/guia-unreal.md`](docs/guia-unreal.md)
+- O que precisamos do cliente: [`docs/CHECKLIST-CLIENTE.md`](docs/CHECKLIST-CLIENTE.md)
+
+## Status (v0, protótipo)
+
+- [x] Fotos analisadas e organizadas por cômodo
+- [x] Planta **estimada** (`blender/layout.json`), à espera de confirmação do proprietário
+- [x] Cena 3D gerada por script no Blender, com texturas das fotos e luz calculada no Cycles
+- [x] Site com casa de bonecas, modo caminhar, menu de cômodos, minimapa, pontos de interesse e PT/EN/ES
+- [ ] Ajustar a planta com o rascunho do proprietário
+- [ ] Refinar móveis (sofá, cama, cortinas) e a luz
+- [ ] Publicar (GitHub Pages) e gerar o QR code
+- [ ] Vídeo cinematográfico no UE5 (opcional)
 
 ## Estrutura
 
@@ -19,6 +32,7 @@ A lista do que precisamos receber do cliente está em
 | `unreal/` | Projeto Unreal Engine 5 (vídeo cinematográfico, via Git LFS) |
 | `scripts/` | Scripts Python do Blender (gerar cena, bake, exportar) e de otimização |
 | `web/` | Site do tour 3D (Vite + TypeScript + Three.js) |
+| `.github/workflows/` | Publicação automática no GitHub Pages |
 
 ## Fluxo resumido
 

@@ -9,3 +9,7 @@ unreal/**/Intermediate/
 unreal/**/Saved/
 unreal/**/DerivedDataCache/
 unreal/**/.vs/
+# gerados pelos scripts (veja docs/COMO-GERAR.md)
+blender/apartamento.blend
+blender/lightmap.png
+.venv/

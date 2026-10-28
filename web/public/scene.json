@@ -1,0 +1,1457 @@
+{
+ "meta": {
+  "nome": "Apartamento frente mar com hidromassagem",
+  "cidade": "Balneário Camboriú - SC",
+  "airbnb_url": "https://www.airbnb.com.br/rooms/911533212733804166",
+  "pe_direito": 2.6,
+  "andar_altura": 40.0
+ },
+ "bounds": [
+  0,
+  0,
+  11.2,
+  9.4
+ ],
+ "rooms": [
+  {
+   "id": "sala",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     0,
+     0
+    ],
+    [
+     4.8,
+     0
+    ],
+    [
+     4.8,
+     7.2
+    ],
+    [
+     0,
+     7.2
+    ]
+   ],
+   "view": {
+    "pos": [
+     3.9,
+     6.3
+    ],
+    "look": [
+     1.4,
+     0.4
+    ]
+   },
+   "name": {
+    "pt": "Sala de estar e jantar",
+    "en": "Living & dining room",
+    "es": "Sala de estar y comedor"
+   }
+  },
+  {
+   "id": "corredor",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     4.8,
+     5.4
+    ],
+    [
+     9.8,
+     5.4
+    ],
+    [
+     9.8,
+     6.6
+    ],
+    [
+     4.8,
+     6.6
+    ]
+   ],
+   "view": {
+    "pos": [
+     9.4,
+     6.0
+    ],
+    "look": [
+     1.0,
+     5.8
+    ]
+   },
+   "name": {
+    "pt": "Hall de entrada",
+    "en": "Entrance hall",
+    "es": "Recibidor"
+   }
+  },
+  {
+   "id": "cozinha",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     4.8,
+     6.6
+    ],
+    [
+     7.4,
+     6.6
+    ],
+    [
+     7.4,
+     9.4
+    ],
+    [
+     4.8,
+     9.4
+    ]
+   ],
+   "view": {
+    "pos": [
+     5.4,
+     7.0
+    ],
+    "look": [
+     6.6,
+     9.4
+    ]
+   },
+   "name": {
+    "pt": "Cozinha",
+    "en": "Kitchen",
+    "es": "Cocina"
+   }
+  },
+  {
+   "id": "lavanderia",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     3.2,
+     7.2
+    ],
+    [
+     4.8,
+     7.2
+    ],
+    [
+     4.8,
+     9.4
+    ],
+    [
+     3.2,
+     9.4
+    ]
+   ],
+   "view": {
+    "pos": [
+     4.4,
+     7.6
+    ],
+    "look": [
+     3.6,
+     9.4
+    ]
+   },
+   "name": {
+    "pt": "Área de serviço",
+    "en": "Laundry",
+    "es": "Lavandería"
+   }
+  },
+  {
+   "id": "banheiro",
+   "floor": "porcelanato_branco",
+   "polygon": [
+    [
+     7.4,
+     6.6
+    ],
+    [
+     8.8,
+     6.6
+    ],
+    [
+     8.8,
+     9.4
+    ],
+    [
+     7.4,
+     9.4
+    ]
+   ],
+   "view": {
+    "pos": [
+     8.3,
+     6.9
+    ],
+    "look": [
+     7.6,
+     8.6
+    ]
+   },
+   "name": {
+    "pt": "Banheiro",
+    "en": "Bathroom",
+    "es": "Baño"
+   }
+  },
+  {
+   "id": "spa",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     4.8,
+     0
+    ],
+    [
+     7.6,
+     0
+    ],
+    [
+     7.6,
+     5.4
+    ],
+    [
+     4.8,
+     5.4
+    ]
+   ],
+   "view": {
+    "pos": [
+     6.9,
+     4.8
+    ],
+    "look": [
+     5.6,
+     0.6
+    ]
+   },
+   "name": {
+    "pt": "Spa com hidromassagem",
+    "en": "Spa with hot tub",
+    "es": "Spa con jacuzzi"
+   }
+  },
+  {
+   "id": "suite",
+   "floor": "marmore_preto",
+   "polygon": [
+    [
+     7.6,
+     0
+    ],
+    [
+     11.2,
+     0
+    ],
+    [
+     11.2,
+     5.4
+    ],
+    [
+     7.6,
+     5.4
+    ]
+   ],
+   "view": {
+    "pos": [
+     8.2,
+     4.6
+    ],
+    "look": [
+     10.6,
+     1.2
+    ]
+   },
+   "name": {
+    "pt": "Suíte",
+    "en": "Bedroom suite",
+    "es": "Suite"
+   }
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "vista",
+   "room": "sala",
+   "pos": [
+    2.4,
+    0.4,
+    1.7
+   ],
+   "title": {
+    "pt": "Sala envidraçada frente mar",
+    "en": "Glass-enclosed living room facing the sea",
+    "es": "Sala acristalada frente al mar"
+   },
+   "text": {
+    "pt": "Vista para a praia e o mar a partir das poltronas.",
+    "en": "Beach and sea views from the armchairs.",
+    "es": "Vista a la playa y al mar desde los sillones."
+   },
+   "photo": "sala-02.jpg"
+  },
+  {
+   "id": "tv_sala",
+   "room": "sala",
+   "pos": [
+    4.6,
+    2.5,
+    1.9
+   ],
+   "title": {
+    "pt": "Smart TV e sofá retrátil",
+    "en": "Smart TV and reclining sofa",
+    "es": "Smart TV y sofá retráctil"
+   },
+   "text": {
+    "pt": "Sofá amplo de frente para a TV.",
+    "en": "Large sofa facing the TV.",
+    "es": "Sofá amplio frente a la TV."
+   },
+   "photo": "sala-01.jpg"
+  },
+  {
+   "id": "jantar",
+   "room": "sala",
+   "pos": [
+    1.05,
+    5.7,
+    1.3
+   ],
+   "title": {
+    "pt": "Mesa de jantar para 4",
+    "en": "Dining table for 4",
+    "es": "Mesa de comedor para 4"
+   },
+   "text": {
+    "pt": "Mesa de vidro com quatro cadeiras.",
+    "en": "Glass table with four chairs.",
+    "es": "Mesa de vidrio con cuatro sillas."
+   },
+   "photo": "jantar-01.jpg"
+  },
+  {
+   "id": "cozinha",
+   "room": "cozinha",
+   "pos": [
+    5.6,
+    9.0,
+    1.3
+   ],
+   "title": {
+    "pt": "Cozinha equipada",
+    "en": "Equipped kitchen",
+    "es": "Cocina equipada"
+   },
+   "text": {
+    "pt": "Cooktop, forno, coifa, pia e utensílios.",
+    "en": "Cooktop, oven, hood, sink and utensils.",
+    "es": "Anafe, horno, campana, fregadero y utensilios."
+   },
+   "photo": "cozinha-02.jpg"
+  },
+  {
+   "id": "lavanderia",
+   "room": "lavanderia",
+   "pos": [
+    3.65,
+    8.95,
+    1.2
+   ],
+   "title": {
+    "pt": "Máquina de lavar",
+    "en": "Washing machine",
+    "es": "Lavarropas"
+   },
+   "text": {
+    "pt": "Área de serviço com máquina de lavar.",
+    "en": "Laundry area with washing machine.",
+    "es": "Lavadero con lavarropas."
+   },
+   "photo": "lavanderia-01.jpg"
+  },
+  {
+   "id": "banheiro",
+   "room": "banheiro",
+   "pos": [
+    7.8,
+    7.45,
+    1.5
+   ],
+   "title": {
+    "pt": "Banheiro com box de vidro",
+    "en": "Bathroom with glass shower",
+    "es": "Baño con mampara de vidrio"
+   },
+   "text": {
+    "pt": "Cuba de vidro artesanal e toalheiro térmico.",
+    "en": "Handcrafted glass basin and heated towel rail.",
+    "es": "Bacha de vidrio artesanal y toallero térmico."
+   },
+   "photo": "banheiro-02.jpg"
+  },
+  {
+   "id": "hidro",
+   "room": "spa",
+   "pos": [
+    6.2,
+    1.0,
+    1.2
+   ],
+   "title": {
+    "pt": "Hidromassagem com vista para o mar",
+    "en": "Hot tub with sea view",
+    "es": "Jacuzzi con vista al mar"
+   },
+   "text": {
+    "pt": "Banheira de hidromassagem em deck de madeira, de frente para a praia.",
+    "en": "Hot tub on a wooden deck, facing the beach.",
+    "es": "Jacuzzi sobre deck de madera, frente a la playa."
+   },
+   "photo": "spa-06.jpg"
+  },
+  {
+   "id": "cama",
+   "room": "suite",
+   "pos": [
+    10.0,
+    2.7,
+    1.0
+   ],
+   "title": {
+    "pt": "Cama de casal",
+    "en": "Double bed",
+    "es": "Cama de matrimonio"
+   },
+   "text": {
+    "pt": "Suíte com vista para o mar, TV e guarda-roupa.",
+    "en": "Sea-view suite with TV and wardrobe.",
+    "es": "Suite con vista al mar, TV y placard."
+   },
+   "photo": "suite-03.jpg"
+  }
+ ],
+ "colliders": [
+  {
+   "kind": "seg",
+   "a": [
+    0.0,
+    0.0
+   ],
+   "b": [
+    4.8,
+    0.0
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    0.0
+   ],
+   "b": [
+    7.6,
+    0.0
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.6,
+    0.0
+   ],
+   "b": [
+    11.2,
+    0.0
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    11.2,
+    0.0
+   ],
+   "b": [
+    11.2,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    11.2,
+    5.4
+   ],
+   "b": [
+    9.8,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    9.8,
+    5.4
+   ],
+   "b": [
+    9.8,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    9.8,
+    6.6
+   ],
+   "b": [
+    8.8,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    8.8,
+    6.6
+   ],
+   "b": [
+    8.8,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    8.8,
+    9.4
+   ],
+   "b": [
+    7.4,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.4,
+    9.4
+   ],
+   "b": [
+    4.8,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    9.4
+   ],
+   "b": [
+    3.2,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    3.2,
+    9.4
+   ],
+   "b": [
+    3.2,
+    7.2
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    3.2,
+    7.2
+   ],
+   "b": [
+    0.0,
+    7.2
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    0.0,
+    7.2
+   ],
+   "b": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    0.0
+   ],
+   "b": [
+    4.8,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.6,
+    0.0
+   ],
+   "b": [
+    7.6,
+    2.0
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.6,
+    3.4
+   ],
+   "b": [
+    7.6,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    5.4
+   ],
+   "b": [
+    7.6,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.6,
+    5.4
+   ],
+   "b": [
+    8.0,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    8.8,
+    5.4
+   ],
+   "b": [
+    9.8,
+    5.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    6.6
+   ],
+   "b": [
+    5.0,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    5.8,
+    6.6
+   ],
+   "b": [
+    7.4,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.4,
+    6.6
+   ],
+   "b": [
+    7.65,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    8.35,
+    6.6
+   ],
+   "b": [
+    8.8,
+    6.6
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    7.4,
+    6.6
+   ],
+   "b": [
+    7.4,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    6.6
+   ],
+   "b": [
+    4.8,
+    7.3
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    4.8,
+    8.05
+   ],
+   "b": [
+    4.8,
+    9.4
+   ]
+  },
+  {
+   "kind": "seg",
+   "a": [
+    3.2,
+    7.2
+   ],
+   "b": [
+    4.8,
+    7.2
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "painel_tv_sala",
+   "pts": [
+    [
+     4.69,
+     3.55
+    ],
+    [
+     4.69,
+     1.45
+    ],
+    [
+     4.74,
+     1.45
+    ],
+    [
+     4.74,
+     3.55
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "rack_sala",
+   "pts": [
+    [
+     4.27,
+     3.45
+    ],
+    [
+     4.27,
+     1.55
+    ],
+    [
+     4.69,
+     1.55
+    ],
+    [
+     4.69,
+     3.45
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "sofa",
+   "pts": [
+    [
+     1.975,
+     1.3
+    ],
+    [
+     1.975,
+     3.9
+    ],
+    [
+     0.525,
+     3.9
+    ],
+    [
+     0.525,
+     1.3
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "poltrona_1",
+   "pts": [
+    [
+     3.125,
+     1.175
+    ],
+    [
+     2.375,
+     1.175
+    ],
+    [
+     2.375,
+     0.425
+    ],
+    [
+     3.125,
+     0.425
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "poltrona_2",
+   "pts": [
+    [
+     3.975,
+     1.175
+    ],
+    [
+     3.225,
+     1.175
+    ],
+    [
+     3.225,
+     0.425
+    ],
+    [
+     3.975,
+     0.425
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "mesa_lateral",
+   "pts": [
+    [
+     1.25,
+     0.3
+    ],
+    [
+     1.95,
+     0.3
+    ],
+    [
+     1.95,
+     1.0
+    ],
+    [
+     1.25,
+     1.0
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "mesa_jantar",
+   "pts": [
+    [
+     1.6,
+     5.15
+    ],
+    [
+     1.6,
+     6.25
+    ],
+    [
+     0.5,
+     6.25
+    ],
+    [
+     0.5,
+     5.15
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cadeira_1",
+   "pts": [
+    [
+     1.055,
+     5.225
+    ],
+    [
+     0.505,
+     5.225
+    ],
+    [
+     0.505,
+     4.675
+    ],
+    [
+     1.055,
+     4.675
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cadeira_2",
+   "pts": [
+    [
+     1.655,
+     5.225
+    ],
+    [
+     1.105,
+     5.225
+    ],
+    [
+     1.105,
+     4.675
+    ],
+    [
+     1.655,
+     4.675
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cadeira_3",
+   "pts": [
+    [
+     0.505,
+     6.175
+    ],
+    [
+     1.055,
+     6.175
+    ],
+    [
+     1.055,
+     6.725
+    ],
+    [
+     0.505,
+     6.725
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cadeira_4",
+   "pts": [
+    [
+     1.105,
+     6.175
+    ],
+    [
+     1.655,
+     6.175
+    ],
+    [
+     1.655,
+     6.725
+    ],
+    [
+     1.105,
+     6.725
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "carrinho_bar",
+   "pts": [
+    [
+     4.05,
+     7.12
+    ],
+    [
+     3.35,
+     7.12
+    ],
+    [
+     3.35,
+     6.72
+    ],
+    [
+     4.05,
+     6.72
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "pilar_madeira",
+   "pts": [
+    [
+     4.64,
+     5.14
+    ],
+    [
+     4.96,
+     5.14
+    ],
+    [
+     4.96,
+     5.46
+    ],
+    [
+     4.64,
+     5.46
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "bancada_cozinha",
+   "pts": [
+    [
+     4.9,
+     8.7
+    ],
+    [
+     6.7,
+     8.7
+    ],
+    [
+     6.7,
+     9.3
+    ],
+    [
+     4.9,
+     9.3
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "geladeira",
+   "pts": [
+    [
+     6.69,
+     8.61
+    ],
+    [
+     7.31,
+     8.61
+    ],
+    [
+     7.31,
+     9.29
+    ],
+    [
+     6.69,
+     9.29
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "bancada_lateral",
+   "pts": [
+    [
+     6.74,
+     8.3
+    ],
+    [
+     6.74,
+     6.9
+    ],
+    [
+     7.34,
+     6.9
+    ],
+    [
+     7.34,
+     8.3
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "maquina_lavar",
+   "pts": [
+    [
+     3.35,
+     8.64
+    ],
+    [
+     3.95,
+     8.64
+    ],
+    [
+     3.95,
+     9.26
+    ],
+    [
+     3.35,
+     9.26
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "armario_lavanderia",
+   "pts": [
+    [
+     4.03,
+     8.7
+    ],
+    [
+     4.73,
+     8.7
+    ],
+    [
+     4.73,
+     9.3
+    ],
+    [
+     4.03,
+     9.3
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "bancada_banheiro",
+   "pts": [
+    [
+     7.97,
+     6.95
+    ],
+    [
+     7.97,
+     7.95
+    ],
+    [
+     7.47,
+     7.95
+    ],
+    [
+     7.47,
+     6.95
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "vaso_sanitario",
+   "pts": [
+    [
+     8.125,
+     8.06
+    ],
+    [
+     8.125,
+     8.44
+    ],
+    [
+     7.475,
+     8.44
+    ],
+    [
+     7.475,
+     8.06
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "box_vidro",
+   "pts": [
+    [
+     7.48,
+     8.645
+    ],
+    [
+     8.68,
+     8.645
+    ],
+    [
+     8.68,
+     8.655
+    ],
+    [
+     7.48,
+     8.655
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "hidro",
+   "pts": [
+    [
+     4.86,
+     0.1
+    ],
+    [
+     7.54,
+     0.1
+    ],
+    [
+     7.54,
+     2.0
+    ],
+    [
+     4.86,
+     2.0
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "degrau_1",
+   "pts": [
+    [
+     4.86,
+     2.0
+    ],
+    [
+     5.66,
+     2.0
+    ],
+    [
+     5.66,
+     2.35
+    ],
+    [
+     4.86,
+     2.35
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "degrau_2",
+   "pts": [
+    [
+     4.86,
+     2.35
+    ],
+    [
+     5.66,
+     2.35
+    ],
+    [
+     5.66,
+     2.7
+    ],
+    [
+     4.86,
+     2.7
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "pole",
+   "pts": [
+    [
+     6.425,
+     2.025
+    ],
+    [
+     6.475,
+     2.025
+    ],
+    [
+     6.475,
+     2.075
+    ],
+    [
+     6.425,
+     2.075
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "espelho_spa",
+   "pts": [
+    [
+     4.95,
+     5.305
+    ],
+    [
+     7.45,
+     5.305
+    ],
+    [
+     7.45,
+     5.335
+    ],
+    [
+     4.95,
+     5.335
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cama",
+   "pts": [
+    [
+     9.025,
+     3.5
+    ],
+    [
+     9.025,
+     1.9
+    ],
+    [
+     11.075,
+     1.9
+    ],
+    [
+     11.075,
+     3.5
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "criado_1",
+   "pts": [
+    [
+     10.65,
+     1.645
+    ],
+    [
+     10.65,
+     1.195
+    ],
+    [
+     11.05,
+     1.195
+    ],
+    [
+     11.05,
+     1.645
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "criado_2",
+   "pts": [
+    [
+     10.65,
+     4.205
+    ],
+    [
+     10.65,
+     3.755
+    ],
+    [
+     11.05,
+     3.755
+    ],
+    [
+     11.05,
+     4.205
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "guarda_roupa",
+   "pts": [
+    [
+     9.1,
+     4.73
+    ],
+    [
+     11.1,
+     4.73
+    ],
+    [
+     11.1,
+     5.33
+    ],
+    [
+     9.1,
+     5.33
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cortina_1",
+   "pts": [
+    [
+     8.475,
+     0.29
+    ],
+    [
+     7.925,
+     0.29
+    ],
+    [
+     7.925,
+     0.15
+    ],
+    [
+     8.475,
+     0.15
+    ]
+   ]
+  },
+  {
+   "kind": "poly",
+   "id": "cortina_2",
+   "pts": [
+    [
+     10.875,
+     0.29
+    ],
+    [
+     10.325,
+     0.29
+    ],
+    [
+     10.325,
+     0.15
+    ],
+    [
+     10.875,
+     0.15
+    ]
+   ]
+  }
+ ],
+ "lightmap": {
+  "scale": 24.887466430664062,
+  "encoding": "srgb"
+ },
+ "exposure": 0.5
+}

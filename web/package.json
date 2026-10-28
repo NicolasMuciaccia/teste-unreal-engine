@@ -1,0 +1,26 @@
+{
+  "name": "tour-3d-apartamento",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "optimize-model": "node scripts/optimize.mjs public/models/apartamento_raw.glb public/models/apartamento.glb"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.1.1",
+    "@gltf-transform/core": "^4.1.1",
+    "@gltf-transform/extensions": "^4.1.1",
+    "@gltf-transform/functions": "^4.1.1",
+    "@types/three": "^0.170.0",
+    "meshoptimizer": "^0.22.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,4 +1,5 @@
-# Arquivos-fonte pesados ficam no Git LFS.
+# Arquivos-fonte pesados (Blender, Unreal) ficam no Git LFS.
+# As fotos de referência são pequenas e ficam no Git normal.
 # O modelo final do site (web/public/models/*.glb) NÃO vai para o LFS:
 # o GitHub Pages não serve arquivos LFS, só o "ponteiro".
 blender/**/*.blend   filter=lfs diff=lfs merge=lfs -text
@@ -7,10 +8,3 @@ blender/**/*.exr     filter=lfs diff=lfs merge=lfs -text
 blender/**/*.hdr     filter=lfs diff=lfs merge=lfs -text
 unreal/**/*.uasset   filter=lfs diff=lfs merge=lfs -text
 unreal/**/*.umap     filter=lfs diff=lfs merge=lfs -text
-reference/**/*.jpg   filter=lfs diff=lfs merge=lfs -text
-reference/**/*.jpeg  filter=lfs diff=lfs merge=lfs -text
-reference/**/*.png   filter=lfs diff=lfs merge=lfs -text
-reference/**/*.heic  filter=lfs diff=lfs merge=lfs -text
-reference/**/*.mp4   filter=lfs diff=lfs merge=lfs -text
-reference/**/*.mov   filter=lfs diff=lfs merge=lfs -text
-reference/**/*.pdf   filter=lfs diff=lfs merge=lfs -text
