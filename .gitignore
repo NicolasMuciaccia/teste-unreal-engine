@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.blend1
+*.blend@
+# Unreal
+unreal/**/Binaries/
+unreal/**/Intermediate/
+unreal/**/Saved/
+unreal/**/DerivedDataCache/
+unreal/**/.vs/
